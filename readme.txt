@@ -1,0 +1,1 @@
+This is code for the Kyte Labs Test Rig. There are two main python scripts. One is bleduino-setup-final.py and the other is bleduino.py. The bleduino-setup-final.py is a thread that runs every time the raspberry pi boots. It is awaiting a call from a button and then launches the second test script file bleduino.py. The main script has a 90 second timeout, incase of hold ups.
